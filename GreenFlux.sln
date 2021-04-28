@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenFlux.API", "GreenFlux.API\GreenFlux.API.csproj", "{D25565CF-FBE3-400D-8809-4B4EE1879756}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenFlux.Model", "GreenFlux.Model\GreenFlux.Model.csproj", "{685BAEF5-6DEC-491A-9D93-404D1EE99491}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenFlux.DataAccess", "GreenFlux.DataAccess\GreenFlux.DataAccess.csproj", "{075A8223-2525-4C71-9D1E-C3C4B6AB7693}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenFlux.Service", "GreenFlux.Service\GreenFlux.Service.csproj", "{15DF0710-53D8-410F-BA55-B9B7DD16612F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EAA2ED0D-A21C-49FC-8BF6-5930FD82CACA}"
+	ProjectSection(SolutionItems) = preProject
+		TODO.txt = TODO.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D25565CF-FBE3-400D-8809-4B4EE1879756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25565CF-FBE3-400D-8809-4B4EE1879756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25565CF-FBE3-400D-8809-4B4EE1879756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25565CF-FBE3-400D-8809-4B4EE1879756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{685BAEF5-6DEC-491A-9D93-404D1EE99491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685BAEF5-6DEC-491A-9D93-404D1EE99491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685BAEF5-6DEC-491A-9D93-404D1EE99491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685BAEF5-6DEC-491A-9D93-404D1EE99491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{075A8223-2525-4C71-9D1E-C3C4B6AB7693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075A8223-2525-4C71-9D1E-C3C4B6AB7693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075A8223-2525-4C71-9D1E-C3C4B6AB7693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075A8223-2525-4C71-9D1E-C3C4B6AB7693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15DF0710-53D8-410F-BA55-B9B7DD16612F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15DF0710-53D8-410F-BA55-B9B7DD16612F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15DF0710-53D8-410F-BA55-B9B7DD16612F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15DF0710-53D8-410F-BA55-B9B7DD16612F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC4F3E78-8FD4-4816-8129-6511AF7F81DC}
+	EndGlobalSection
+EndGlobal

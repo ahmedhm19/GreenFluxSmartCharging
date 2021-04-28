@@ -1,0 +1,8 @@
+
+
+-Check if using UnitOfWork is better that injecting Repositories directly to services
+
+-Implement move chargeStation from group to another group
+
+-Don't suggest solutions which lead to empty chargeStations
+
