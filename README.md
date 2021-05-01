@@ -4,8 +4,8 @@
 - 30% : Designing solution architecture
 - 20% : Implementing (Data, application and service layers)
 - 20% : Implementing Suggestion system
-- 5% : Learning and doing some researches on the internet
-- 15% : Unit tests
+- 20% : Learning and doing some researches on the internet
+
 
 # Improvements :
 - Revising soluion architecture.
