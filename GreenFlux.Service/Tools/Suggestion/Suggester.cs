@@ -11,8 +11,8 @@ namespace GreenFlux.Service.Tools
         {
             List<ISuggestion> suggestions = new List<ISuggestion>();
 
-            //Remove connectors with MaxCurrent greater than target
-            connectors = connectors.Where(c =>c.MaxCurrent <= target).ToList(); //TODO : optimize by using splitArray by index
+            //keep only connectors with MaxCurrent less than target
+            connectors = connectors.Where(c => c.MaxCurrent <= target).ToList(); //TODO : optimize by using splitArray by index
 
             //Order : biggest first
             connectors.Sort(new ConnectorMaxCurrentComparer());
@@ -77,10 +77,6 @@ namespace GreenFlux.Service.Tools
                     }
                 else
                 {
-                    //If current element is greater than originalTarget, then remove it
-                    //if (connectors[0].MaxCurrent >= originalTarget)
-                    //    connectors.RemoveAt(0);
-
                     //Set new Target
                     var newTarget = connectors[0];
                     target.SetValue(newTarget.MaxCurrent, TargetSources.Connectors);

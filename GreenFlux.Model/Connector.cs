@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GreenFlux.Model
 {
-    public class Connector : Entity
+    public partial class Connector : Entity
     {
 
         public override object[] GetKey()
@@ -15,10 +15,6 @@ namespace GreenFlux.Model
         public long ChargeStationId { get; set; }
         public float MaxCurrent { get; set; }
 
-        [NotMapped]
-        public int Index;//TODO to remove
-
 
     }
-
 }
