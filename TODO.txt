@@ -1,4 +1,4 @@
-
+Notes : 
 
 -Check if using UnitOfWork is better that injecting Repositories directly to services
 
