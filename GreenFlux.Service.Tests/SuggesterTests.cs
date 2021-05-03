@@ -8,12 +8,8 @@ namespace GreenFlux.Service.Tests
 {
     public class SuggesterTests
     {
-        [Theory]
-        [InlineData(20f, 1)]
-        [InlineData(8.9f, 1)]
-        [InlineData(10f, 2)]
-        [InlineData(5f, 0)]
-        public void GetSuggestions_Tests(float targetCurrent, int expectedNumberOfCombinations)
+
+        public void GetSuggestions_Tests(float targetCurrent, int suggestionsExpected)
         {
             var connectorsList = new List<Connector>
             {
@@ -30,7 +26,7 @@ namespace GreenFlux.Service.Tests
             var suggestions = suggester.GetSuggestions(connectorsList , targetCurrent);
 
 
-            Assert.Equal(expectedNumberOfCombinations , suggestions.Count);
+            Assert.Equal(suggestionsExpected , suggestions.Count);
 
         }
     }
