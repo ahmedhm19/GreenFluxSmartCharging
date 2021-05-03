@@ -87,6 +87,16 @@ namespace GreenFlux.Service.Tools
                         {
                             //This is new solution
                             leftHandElemens.Add(rightHand);
+
+                            //If previous solution better that this, then stop searching
+                            if (suggestions.Count > 0)
+                            {
+                                //get previous solution
+                                var previousSolution = ((MultipleElementSuggestion)suggestions[suggestions.Count - 1]);
+                                if (previousSolution.Elements.Count < leftHandElemens.Count)
+                                    goto StopSearching;
+                            }
+                      
                             //Add it to suggestions
                             suggestions.Add(new MultipleElementSuggestion { Elements = leftHandElemens });
                         }
@@ -97,7 +107,7 @@ namespace GreenFlux.Service.Tools
 
                 leftHandLeftPartIndex++;
 
-                if (elementsToTake >= connectors.Count)
+                if ( elementsToTake >= connectors.Count)
                     break;
 
                 if (suggestions.Count == 0)
@@ -108,6 +118,8 @@ namespace GreenFlux.Service.Tools
 
             }
 
+
+            StopSearching:
 
             return suggestions;
         }
