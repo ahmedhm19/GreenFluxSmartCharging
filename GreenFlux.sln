@@ -16,6 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TODO.txt = TODO.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{743E2488-D6F3-4C3E-8C28-416CCA9F20B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenFlux.Service.Tests", "GreenFlux.Service.Tests\GreenFlux.Service.Tests.csproj", "{8E396543-B465-43E8-8BB7-2D041DE420FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,9 +42,16 @@ Global
 		{15DF0710-53D8-410F-BA55-B9B7DD16612F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15DF0710-53D8-410F-BA55-B9B7DD16612F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15DF0710-53D8-410F-BA55-B9B7DD16612F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E396543-B465-43E8-8BB7-2D041DE420FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E396543-B465-43E8-8BB7-2D041DE420FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E396543-B465-43E8-8BB7-2D041DE420FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E396543-B465-43E8-8BB7-2D041DE420FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E396543-B465-43E8-8BB7-2D041DE420FE} = {743E2488-D6F3-4C3E-8C28-416CCA9F20B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AC4F3E78-8FD4-4816-8129-6511AF7F81DC}

@@ -8,9 +8,9 @@ namespace GreenFlux.Service.Tools
     {
       
         public float Value { get; private set; }
-        public TargetSources Source;
+        public TargetSource Source;
 
-        public void SetValue(float value , TargetSources source)//source of value
+        public void SetValue(float value , TargetSource source)//source of value
         {
             //Keep previous values in history before changing
             PreviousTarget = new Target { Value = this.Value, Source = this.Source };
@@ -27,7 +27,7 @@ namespace GreenFlux.Service.Tools
 
 
 
-    public enum TargetSources
+    public enum TargetSource
     {
         Connectors,
         Calculated
