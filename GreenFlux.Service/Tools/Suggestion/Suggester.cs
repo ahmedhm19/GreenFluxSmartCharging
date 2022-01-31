@@ -88,7 +88,7 @@ namespace GreenFlux.Service.Tools
                             //This is new solution
                             leftHandElemens.Add(rightHand);
 
-                            //If previous solution better that this, then stop searching
+                            //If previous solution better than this, then stop searching
                             if (suggestions.Count > 0)
                             {
                                 //get previous solution
